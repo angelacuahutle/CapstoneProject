@@ -1,6 +1,6 @@
 $blue-gray: #272a31;
 $cocogoose: "Cocogoose",
-sans-serif;
+  sans-serif;
 $red: #ec5242;
 
 @font-face {
@@ -53,7 +53,7 @@ a:hover {
     margin-right: 20px;
   }
 
-  .left-side>a {
+  .left-side > a {
     color: white;
   }
 
@@ -74,7 +74,7 @@ a:hover {
       font-size: 22px;
     }
 
-    .features>div {
+    .features > div {
       background-color: rgba(65, 68, 75, 0.6);
       border: 2px solid #272a31 !important;
 
