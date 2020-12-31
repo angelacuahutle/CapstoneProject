@@ -1,5 +1,14 @@
-$blue-gray: #272A31;
-$cocogoose: cocogoose, sans-serif;
+$blue-gray: #272a31;
+$cocogoose: "Cocogoose",
+  sans-serif;
+$red: #ec5242;
+
+@font-face {
+  font-family: "Cocogoose";
+  src: url('Cocogoose.woff2') format('woff2'), url('Cocogoose.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   font-family: 'Lato', sans-serif;
@@ -11,15 +20,26 @@ body {
 }
 
 a:hover {
-  color: red !important;
+  color: $red !important;
+}
+
+.cocogoose {
+  font-family: $cocogoose;
 }
 
 .bg-blue-gray {
   background-color: $blue-gray;
 }
 
-.header {
+.text-orange {
+  color: $red;
+}
 
+#active {
+  color: $red !important;
+}
+
+.header {
   .hamburguer {
     color: black;
   }
@@ -29,13 +49,13 @@ a:hover {
     margin-right: 20px;
   }
 
-  .left-side>a {
+  .left-side > a {
     color: white;
   }
+
   .navbar-bottom {
     width: 50vw;
   }
-
 }
 
 .main {
@@ -50,9 +70,9 @@ a:hover {
       font-size: 22px;
     }
 
-    .features>div {
+    .features > div {
       background-color: rgba(65, 68, 75, 0.6);
-      border: 2px solid #272A31 !important;
+      border: 2px solid #272a31 !important;
 
       .far,
       .fas,
@@ -60,7 +80,6 @@ a:hover {
         fill: white;
       }
     }
-
   }
 
   .guests {
@@ -70,14 +89,15 @@ a:hover {
     }
 
     .featured-speakers {
-      border-bottom: 1px solid red;
+      border-bottom: 1px solid $red;
     }
   }
+}
 
+.footer {
   .partners {
     h2 {
-      border-bottom: 1px solid red;
-
+      border-bottom: 1px solid $red;
     }
 
     .fa-creative-commons {
@@ -85,8 +105,6 @@ a:hover {
     }
   }
 }
-
-
 
 @media screen and (min-width: 992px) {
   .bg-lg-dark {

@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Cocogoose";
+  src: url("Cocogoose.woff2") format("woff2"), url("Cocogoose.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   overflow-x: hidden;
@@ -8,11 +15,23 @@ body * {
 }
 
 a:hover {
-  color: red !important;
+  color: #ec5242 !important;
+}
+
+.cocogoose {
+  font-family: "Cocogoose", sans-serif;
 }
 
 .bg-blue-gray {
-  background-color: #272A31;
+  background-color: #272a31;
+}
+
+.text-orange {
+  color: #ec5242;
+}
+
+#active {
+  color: #ec5242 !important;
 }
 
 .header .hamburguer {
@@ -46,7 +65,7 @@ a:hover {
 
 .main .main-program .features > div {
   background-color: rgba(65, 68, 75, 0.6);
-  border: 2px solid #272A31 !important;
+  border: 2px solid #272a31 !important;
 }
 
 .main .main-program .features > div .far,
@@ -61,14 +80,14 @@ a:hover {
 }
 
 .main .guests .featured-speakers {
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #ec5242;
 }
 
-.main .partners h2 {
-  border-bottom: 1px solid red;
+.footer .partners h2 {
+  border-bottom: 1px solid #ec5242;
 }
 
-.main .partners .fa-creative-commons {
+.footer .partners .fa-creative-commons {
   color: white;
 }
 
