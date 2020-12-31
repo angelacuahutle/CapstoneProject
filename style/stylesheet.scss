@@ -1,0 +1,95 @@
+$blue-gray: #272A31;
+$cocogoose: cocogoose, sans-serif;
+
+body {
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+
+  * {
+    overflow-x: hidden;
+  }
+}
+
+a:hover {
+  color: red !important;
+}
+
+.bg-blue-gray {
+  background-color: $blue-gray;
+}
+
+.header {
+
+  .hamburguer {
+    color: black;
+  }
+
+  .left-side {
+    width: 20vw;
+    margin-right: 20px;
+  }
+
+  .left-side>a {
+    color: white;
+  }
+  .navbar-bottom {
+    width: 50vw;
+  }
+
+}
+
+.main {
+  .titulo {
+    padding-top: 80px;
+  }
+
+  .main-program {
+    color: white;
+
+    h3 {
+      font-size: 22px;
+    }
+
+    .features>div {
+      background-color: rgba(65, 68, 75, 0.6);
+      border: 2px solid #272A31 !important;
+
+      .far,
+      .fas,
+      .fab {
+        fill: white;
+      }
+    }
+
+  }
+
+  .guests {
+    img {
+      width: 120px;
+      height: 120px;
+    }
+
+    .featured-speakers {
+      border-bottom: 1px solid red;
+    }
+  }
+
+  .partners {
+    h2 {
+      border-bottom: 1px solid red;
+
+    }
+
+    .fa-creative-commons {
+      color: white;
+    }
+  }
+}
+
+
+
+@media screen and (min-width: 992px) {
+  .bg-lg-dark {
+    background-color: black;
+  }
+}

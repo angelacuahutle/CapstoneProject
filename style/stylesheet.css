@@ -1,0 +1,80 @@
+body {
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+}
+
+body * {
+  overflow-x: hidden;
+}
+
+a:hover {
+  color: red !important;
+}
+
+.bg-blue-gray {
+  background-color: #272A31;
+}
+
+.header .hamburguer {
+  color: black;
+}
+
+.header .left-side {
+  width: 20vw;
+  margin-right: 20px;
+}
+
+.header .left-side > a {
+  color: white;
+}
+
+.header .navbar-bottom {
+  width: 50vw;
+}
+
+.main .titulo {
+  padding-top: 80px;
+}
+
+.main .main-program {
+  color: white;
+}
+
+.main .main-program h3 {
+  font-size: 22px;
+}
+
+.main .main-program .features > div {
+  background-color: rgba(65, 68, 75, 0.6);
+  border: 2px solid #272A31 !important;
+}
+
+.main .main-program .features > div .far,
+.main .main-program .features > div .fas,
+.main .main-program .features > div .fab {
+  fill: white;
+}
+
+.main .guests img {
+  width: 120px;
+  height: 120px;
+}
+
+.main .guests .featured-speakers {
+  border-bottom: 1px solid red;
+}
+
+.main .partners h2 {
+  border-bottom: 1px solid red;
+}
+
+.main .partners .fa-creative-commons {
+  color: white;
+}
+
+@media screen and (min-width: 992px) {
+  .bg-lg-dark {
+    background-color: black;
+  }
+}
+/*# sourceMappingURL=stylesheet.css.map */
