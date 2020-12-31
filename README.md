@@ -22,7 +22,7 @@ It is a nicely done layout !
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/angelacuahutle/CapstoneProject/b300c4d767cb00d94784db00e008c41619a58bc9/index.html)
+[Live Demo Link](https://rawcdn.githack.com/angelacuahutle/CapstoneProject/23d00020acad17803d146e94ac0f9a3b7aeb5492/index.html)
 
 ## Author
 
