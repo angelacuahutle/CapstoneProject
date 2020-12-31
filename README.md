@@ -1,16 +1,20 @@
 # CapstoneProject
+
 HTML &amp; CSS Capstone Project is based on an online website for a conference.
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-![screenshot]()
+![screenshot](./assets/phone-capstone.png)
+
+![screenshot](./assets/shoot-cap.png)
 
 It is a nicely done layout !
 
 ## Built With
 
-- HTML5
-- CSS
+- HTML5 & CSS3
+    - Flexbox, grid
+- SCSS compiler
 - Bootstrap
 - Github Pages
 - Linters
@@ -18,7 +22,7 @@ It is a nicely done layout !
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/angelacuahutle/CapstoneProject/b300c4d767cb00d94784db00e008c41619a58bc9/index.html)
 
 ## Author
 
@@ -31,7 +35,7 @@ It is a nicely done layout !
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/angelacuahutle/).
+Feel free to check the [issues page](https://github.com/angelacuahutle/CapstoneProject/issues).
 
 ## Show your support
 
@@ -42,7 +46,3 @@ Give a ⭐️ if you like this project!
 This project is [MIT](./LICENSE) licensed.
 
 ![microverse](https://img.shields.io/badge/Microverse-blueviolet)
-
-# Learnings of this project
-
-- ```Ctrl + Shift + I``` command for auto-indentation.

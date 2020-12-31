@@ -17,7 +17,8 @@
 </head>
 
 <body>
-  <header class="header top-navbar navbar py-0 border-bottom bg-blue-gray d-flex position-fixed w-100 justify-content-between">
+  <header
+    class="header top-navbar navbar py-0 border-bottom bg-blue-gray d-flex position-fixed w-100 justify-content-between">
     <div class="container d-none d-lg-flex justify-content-end w-100">
       <div class="d-flex justify-content-between left-side">
         <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -30,14 +31,14 @@
     <nav class="nav-bar d-flex justify-content-between w-100 bg-light mt-1">
       <div class="container d-flex justify-content-between">
         <a href="#" class="d-lg-none p-3 hamburguer"><i class="fas fa-bars"></i></a>
-        <img src="/assets/SITAC_logo.svg" class="logo p-3">
+        <img src="/assets/SITAC_logo.svg" class="logo p-3" alt="thumbnail">
         <div class="bottom-menu d-none d-lg-flex align-items-center justify-content-between navbar-bottom">
           <a href="index.html" class="text-decoration-none d-none d-lg-flex text-dark" id="active">About</a>
-          <a href="program.html" class="text-decoration-none d-none d-md-flex text-dark">Program</a>
+          <a href="#" class="text-decoration-none d-none d-md-flex text-dark">Program</a>
           <a href="#" class="text-decoration-none d-none d-md-flex text-dark">Join</a>
           <a href="#" class="text-decoration-none d-none d-md-flex text-dark">Sponsor</a>
           <a href="#" class="text-decoration-none d-none d-md-flex text-dark">News</a>
-          <a href="pricing.html" class="pr-3 tickets-btn btn d-none d-md-flex text-dark">Get your tickets</a>
+          <a href="getyourtickets.html" class="pr-3 tickets-btn btn d-none d-md-flex text-dark">Get your tickets</a>
           <a href="#" class="class"></a>
         </div>
       </div>
@@ -117,19 +118,20 @@
         </div>
 
       </div>
-      <p class="class text-light text-uppercase text-decoration-underline">See the whole Program</p>
-
+      <div class="d-flex justify-content-center">
+        <p class="class text-light text-uppercase text-decoration-underline">See the whole Program</p>
+      </div>
     </section>
 
-    <div class="container">
-      <section class="guests d-flex flex-column bg-white mt-3">
+    <section class="container">
+      <div class="guests d-flex flex-column bg-white mt-3">
         <div class="d-flex justify-content-center">
           <h2 class="p-2 text-center cocogoose bg-light font-weight-bolder mb-4 featured-speakers">
             Featured Speakers
           </h2>
         </div>
         <article class="local-row d-lg-flex container">
-          <div class="column w-50">
+          <div class="column width-50">
 
             <div class="speakers-features media d-flex">
               <img src="assets/leo0.jpg" alt="" class="media-img p-2 img-thumbnail">
@@ -159,7 +161,7 @@
               </div>
             </div>
           </div>
-          <div class="column w-50">
+          <div class="column width-50">
             <div class="speakers-features media d-flex">
               <img src="assets/railcard.jpeg" alt="" class="media-img p-2 img-thumbnail">
               <div class="media-body d-flex flex-column w-50">
@@ -185,9 +187,9 @@
               </div>
             </div>
           </div>
-
-      </section>
-    </div>
+        </article>
+      </div>
+    </section>
   </main>
 
   <footer class="footer">
