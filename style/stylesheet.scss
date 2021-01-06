@@ -1,6 +1,6 @@
 $blue-gray: #272a31;
 $cocogoose: "Cocogoose",
-  sans-serif;
+sans-serif;
 $red: #ec5242;
 
 @font-face {
@@ -53,7 +53,7 @@ a:hover {
     margin-right: 20px;
   }
 
-  .left-side > a {
+  .left-side>a {
     color: white;
   }
 
@@ -63,8 +63,23 @@ a:hover {
 }
 
 .main {
-  .titulo {
-    padding-top: 80px;
+  * {
+    overflow-y: hidden;
+    overflow-wrap: break-word;
+  }
+
+  .mytitle {
+    font-size: calc(1.525rem + 3.3vw);
+    font-weight: 300;
+    color: $red;
+    padding-top: 150px;
+  }
+
+  .box-summary {
+    font-size: 18px;
+    width: 100%;
+    background-color: #f0efef;
+    border: 3px solid white;
   }
 
   .main-program {
@@ -74,7 +89,16 @@ a:hover {
       font-size: 22px;
     }
 
-    .features > div {
+    h2 {
+      font-weight: bolder;
+    }
+
+    .resize-row-text {
+      width: 50%;
+      font-size: 12px;
+    }
+
+    .features>div {
       background-color: rgba(65, 68, 75, 0.6);
       border: 2px solid #272a31 !important;
 
@@ -90,6 +114,7 @@ a:hover {
     img {
       width: 120px;
       height: 120px;
+      object-fit: cover;
     }
 
     .featured-speakers {
@@ -98,7 +123,29 @@ a:hover {
   }
 }
 
+.tickets {
+  height: 80vh;
+
+  .ticket-title {
+    color: $red;
+    padding-top: 100px;
+  }
+
+  .tickets-table {
+    display: flex;
+    justify-content: space-around;
+    .tickets-table-column {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
 .footer {
+  * {
+    overflow-y: hidden;
+  }
+
   .partners {
     h2 {
       border-bottom: 1px solid $red;
@@ -110,9 +157,7 @@ a:hover {
   }
 }
 
-.ticket-box {
-  margin-top: 50px;
-}
+
 
 @media screen and (min-width: 992px) {
   .bg-lg-dark {
