@@ -178,6 +178,20 @@ a:hover {
           transparent 4em) !important;
     }
   }
+
+  .lunch-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .vegetarians .meaters {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    margin-right: 40px;
+    margin-left: 40px padding-bottom: 40px;
+  }
 }
 
 .footer {
@@ -266,16 +280,6 @@ a:hover {
     top: -405px;
     margin-bottom: -405px;
   }
-  .lunch-wrapper {
-    display: flex;
-    justify-content: center;
-  }  
-}
-
-  .slct-lunch {
-    display: flex;
-    align-self: center;
-}
 }
 
 @media screen and (min-width: 992px) {
