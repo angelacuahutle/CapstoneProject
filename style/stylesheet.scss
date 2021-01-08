@@ -1,6 +1,6 @@
 $blue-gray: #272a31;
 $cocogoose: "Cocogoose",
-sans-serif;
+  sans-serif;
 $red: #ec5242;
 
 @font-face {
@@ -35,8 +35,12 @@ a:hover {
   color: $red;
 }
 
-.mt-50px {
+.mt-100px {
   margin-top: 100px;
+}
+
+.mb-100px {
+  margin-bottom: 100px;
 }
 
 #active {
@@ -44,6 +48,8 @@ a:hover {
 }
 
 .header {
+  z-index: 1000;
+
   .hamburguer {
     color: black;
   }
@@ -53,7 +59,7 @@ a:hover {
     margin-right: 20px;
   }
 
-  .left-side>a {
+  .left-side > a {
     color: white;
   }
 
@@ -98,7 +104,7 @@ a:hover {
       font-size: 12px;
     }
 
-    .features>div {
+    .features > div {
       background-color: rgba(65, 68, 75, 0.6);
       border: 2px solid #272a31 !important;
 
@@ -127,16 +133,53 @@ a:hover {
   height: 80vh;
 
   .ticket-title {
-    color: $red;
     padding-top: 100px;
+    margin-bottom: 100px;
   }
 
   .tickets-table {
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+    margin-top: 100px;
+
+    .tickets-table-div {
+      display: flex;
+      flex-direction: column;
+      border-image:
+        4 repeating-linear-gradient(
+          -30deg,
+          red 0,
+          red 1em,
+          transparent 0,
+          transparent 2em,
+          #58a 0,
+          #58a 3em,
+          transparent 0,
+          transparent 4em
+        );
+    }
+
     .tickets-table-column {
       display: flex;
       flex-direction: column;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+
+    .border-colored {
+      border-image:
+        4 repeating-linear-gradient(
+          -30deg,
+          red 0,
+          red 1em,
+          transparent 0,
+          transparent 2em,
+          #58a 0,
+          #58a 3em,
+          transparent 0,
+          transparent 4em
+        ) !important;
     }
   }
 }
@@ -144,6 +187,10 @@ a:hover {
 .footer {
   * {
     overflow-y: hidden;
+
+    .thumb-image2 {
+      width: 20px;
+    }
   }
 
   .partners {
@@ -157,7 +204,73 @@ a:hover {
   }
 }
 
+.about-main {
+  .About {
+    background-color: #d3d3d3;
+    padding-bottom: 200px;
+  }
 
+  .box-summary > p {
+    margin: 4px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+
+  .venue {
+    opacity: 0.5;
+  }
+
+  .short-caption {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .short-caption > span {
+    font-weight: bolder;
+    font-size: 18px;
+  }
+
+  .logo-image {
+    display: flex;
+    align-self: center;
+  }
+
+  .sao-paulo {
+    height: 405px;
+    width: 720px;
+    object-fit: cover;
+  }
+
+  .medellin {
+    width: 720px;
+    height: 405px;
+  }
+
+  .places-div {
+    position: relative;
+    top: 265px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white !important;
+    z-index: 15;
+
+    img {
+      opacity: 0.4;
+      z-index: -1;
+    }
+  }
+
+  .transparent-orange {
+    height: 405px;
+    width: 720px;
+    background-color: rgba(255, 69, 0, 0.5);
+    z-index: 0;
+    position: relative;
+    top: -405px;
+    margin-bottom: -405px;
+  }
+}
 
 @media screen and (min-width: 992px) {
   .bg-lg-dark {
@@ -166,5 +279,29 @@ a:hover {
 
   .width-50 {
     width: 50%;
+  }
+
+  .tickets-table {
+    border: 10px solid;
+    padding: 40px;
+    margin-bottom: 70px;
+    border-image:
+      4 repeating-linear-gradient(
+        -30deg,
+        red 0,
+        red 1em,
+        transparent 0,
+        transparent 2em,
+        #58a 0,
+        #58a 3em,
+        transparent 0,
+        transparent 4em
+      );
+  }
+
+  .tickets-table-div {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around;
   }
 }

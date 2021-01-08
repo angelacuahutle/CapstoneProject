@@ -30,12 +30,20 @@ a:hover {
   color: #ec5242;
 }
 
-.mt-50px {
+.mt-100px {
   margin-top: 100px;
+}
+
+.mb-100px {
+  margin-bottom: 100px;
 }
 
 #active {
   color: #ec5242 !important;
+}
+
+.header {
+  z-index: 1000;
 }
 
 .header .hamburguer {
@@ -106,7 +114,7 @@ a:hover {
   width: 120px;
   height: 120px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .main .guests .featured-speakers {
@@ -118,30 +126,57 @@ a:hover {
 }
 
 .tickets .ticket-title {
-  color: #ec5242;
   padding-top: 100px;
+  margin-bottom: 100px;
 }
 
 .tickets .tickets-table {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.tickets .tickets-table .tickets-table-div {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -o-border-image: 4 repeating-linear-gradient(-30deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em);
+  border-image: 4 repeating-linear-gradient(-30deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em);
 }
 
 .tickets .tickets-table .tickets-table-column {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.tickets .tickets-table .border-colored {
+  -o-border-image: 4 repeating-linear-gradient(-30deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em) !important;
+  border-image: 4 repeating-linear-gradient(-30deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em) !important;
 }
 
 .footer * {
   overflow-y: hidden;
+}
+
+.footer * .thumb-image2 {
+  width: 20px;
 }
 
 .footer .partners h2 {
@@ -152,12 +187,100 @@ a:hover {
   color: white;
 }
 
+.about-main .About {
+  background-color: #d3d3d3;
+  padding-bottom: 200px;
+}
+
+.about-main .box-summary > p {
+  margin: 4px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.about-main .venue {
+  opacity: 0.5;
+}
+
+.about-main .short-caption {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about-main .short-caption > span {
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.about-main .logo-image {
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.about-main .sao-paulo {
+  height: 405px;
+  width: 720px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.about-main .medellin {
+  width: 720px;
+  height: 405px;
+}
+
+.about-main .places-div {
+  position: relative;
+  top: 265px;
+  font-size: 40px;
+  font-weight: bolder;
+  color: white !important;
+  z-index: 15;
+}
+
+.about-main .places-div img {
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.about-main .transparent-orange {
+  height: 405px;
+  width: 720px;
+  background-color: rgba(255, 69, 0, 0.5);
+  z-index: 0;
+  position: relative;
+  top: -405px;
+  margin-bottom: -405px;
+}
+
 @media screen and (min-width: 992px) {
   .bg-lg-dark {
     background-color: black;
   }
+
   .width-50 {
     width: 50%;
   }
+
+  .tickets-table {
+    border: 10px solid;
+    padding: 40px;
+    margin-bottom: 70px;
+    -o-border-image: 4 repeating-linear-gradient(-30deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em);
+    border-image: 4 repeating-linear-gradient(-30deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em);
+  }
+
+  .tickets-table-div {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
 }
-/*# sourceMappingURL=stylesheet.css.map */

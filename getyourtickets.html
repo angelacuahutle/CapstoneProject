@@ -46,93 +46,105 @@
 
   <main class="tickets main">
     <section class="container ticket-box">
-      <h2 class="ticket-title">Select your Tickets</h2>
-      <!-- <div class="Rtable Rtable--4cols">
+      <div class="d-flex justify-content-center">
+        <h2 class="ticket-title text-dark Lato border-bottom border-danger">Select your Tickets</h2>
+      </div>
+      <div class="d-flex justify-content-center">
+        <div class="w-50 d-flex justify-content-center rounded-pill border border-2">
+          <p class="mt-3">Select your choice</p>
+        </div>
+      </div>
+      
+      <div class="tickets-table">
+        <div class="tickets-table-div">
+          <div class="tickets-table-column border-colored">
+            <div class="">
+              <h2 class="tickets-table-title">STUDENT</h2>
+              <div class="tickets-table-p">
+                <p class="p-example">Single 50% Discount</p>
+              </div>
+              <div class="tickets-table-p">
+                <p class="p-example">10 USD</p>
+              </div>
+              <div class="tickets-table-p">
+                <p class="p-example">MEAL INCLUDED</p>
+              </div>
+              <div class="tickets-table-p">
+                <button class="add-2-cart btn-danger">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="tickets-table-column align-items-center">
+            <h2 class="tickets-table-title">REGULAR</h2>
+            <div class="tickets-table-p">
+              <p class="p-example">Erly Bird 20% Discount</p>
+            </div>
+            <div class="tickets-table-p">
+              <p class="p-example">20 USD</p>
+            </div>
+            <div class="tickets-table-p">
+              <p class="p-example">MEAL INCLUDED</p>
+            </div>
+            <div class="tickets-table-p">
+              <button class="add-2-cart btn-danger">Add to Cart</button>
+            </div>
+          </div>
+          <div class="tickets-table-column align-items-center">
+            <h2 class="tickets-table-title">AFFILIATED</h2>
+            <div class="tickets-table-p">
+              <p class="p-example">60% Discount </p>
+            </div>
+            <div class="tickets-table-p">
+              <p class="p-example">8 USD</p>
+            </div>
+            <div class="tickets-table-p">
+              <p class="p-example">SPECIAL MEAL</p>
+            </div>
+            <div class="tickets-table-p">
+              <button class="add-2-cart btn-danger">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
-
-        <div class="Rtable-cell">
-          <h3>Eddard Stark</h3>
-        </div>
-        <div class="Rtable-cell">Has a sword named Ice</div>
-        <div class="Rtable-cell">No direwolf</div>
-        <div class="Rtable-cell"><strong>Lord of Winterfell</strong></div>
-
-        <div class="Rtable-cell">
-          <h3>Jon Snow</h3>
-        </div>
-        <div class="Rtable-cell">Has a sword named Longclaw</div>
-        <div class="Rtable-cell">Direwolf: Ghost</div>
-        <div class="Rtable-cell"><strong>Knows nothing</strong></div>
-
-        <div class="Rtable-cell">
-          <h3>Arya Stark</h3>
-        </div>
-        <div class="Rtable-cell">Has a sword named Needle</div>
-        <div class="Rtable-cell">Direwolf: Nymeria</div>
-        <div class="Rtable-cell"><strong>No one</strong></div>
-
-      </div> -->
-      <div class="tickets-table border">
-        <div class="tickets-table-column">
-          <h2 class="tickets-table-title">Title</h2>
-          <div class="tickets-table-p">
-            <p class="p-example">Sample text</p>
-          </div>
-          <div class="tickets-table-p">
-            <p class="p-example">Sample text</p>
-          </div>
-          <div class="tickets-table-p">
-            <p class="p-example">Sample text</p>
-          </div>
-          <div class="tickets-table-p">
-            <p class="p-example">Sample text</p>
+      <section class="lunch-wrapper justify-content-center">
+        <h2 class="slct-lunch d-flex justify-content-center border-danger">Select your lunch below:</h2>
+        <div class="vegetarians">
+          <h4>Menu for vegetarians:</h4>
+          <div class="veg-menu">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+              <label class="form-check-label" for="inlineCheckbox1">Menu 1</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="inlineCheckbox2">Menu 2</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+              <label class="form-check-label" for="inlineCheckbox3">Menu 3</label>
+            </div>
           </div>
         </div>
-        <div class="tickets-table-column">
-          <h2 class="tickets-table-title">Title</h2>
-          <div class="tickets-table-p">
-            <p class="p-example">Sample text</p>
-          </div>
-          <div class="tickets-table-p">
-            <p class="p-example">Sample text</p>
-          </div>
-          <div class="tickets-table-p">
-            <p class="p-example">Sample text</p>
-          </div>
-          <div class="tickets-table-p">
-            <p class="p-example">Sample text</p>
-          </div>
-        </div>
-        <div class="tickets-table-column">
-          <h2 class="tickets-table-title">Title</h2>
-          <div class="tickets-table-p">
-            <p class="p-example">Sample text</p>
-          </div>
-          <div class="tickets-table-p">
-            <p class="p-example">Sample text</p>
-          </div>
-          <div class="tickets-table-p">
-            <p class="p-example">Sample text</p>
-          </div>
-          <div class="tickets-table-p">
-            <p class="p-example">Sample text</p>
+        <div class="meaters">
+          <h4>Menu for 'meat-eaters':</h4>
+          <div class="veg-menu">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option1">
+              <label class="form-check-label" for="inlineCheckbox4">Menu 1</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option2">
+              <label class="form-check-label" for="inlineCheckbox5">Menu 2</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option3">
+              <label class="form-check-label" for="inlineCheckbox6">Menu 3</label>
+            </div>
           </div>
         </div>
-        <div class="tickets-table-column">
-          <h2 class="tickets-table-title">Title</h2>
-          <div class="tickets-table-p">
-            <p class="p-example">Sample text</p>
-          </div>
-          <div class="tickets-table-p">
-            <p class="p-example">Sample text</p>
-          </div>
-          <div class="tickets-table-p">
-            <p class="p-example">Sample text</p>
-          </div>
-          <div class="tickets-table-p">
-            <p class="p-example">Sample text</p>
-          </div>
-        </div>
+        <button type="submit" class="btn-danger sbmit-order mb-100px" style="background-color: #ec5242;">Submit</button>
+      </section>
 
       </div>
     </section>
@@ -144,7 +156,6 @@
           Partners
         </h2>
       </div>
-      <!--logos partners -->
       <div class="w-100 d-flex flex-column flex-lg-row justify-content-around align-items-baseline">
         <img class="thumb-image loaded bg-light"
           data-src="https://images.squarespace-cdn.com/content/v1/5a1d61349f07f57a59258fe5/1556890115879-SP8EYA9PIRPUNLG3SEO1/ke17ZwdGBToddI8pDm48kHJDhokOg4EoSVhzGQFeWeIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcBahIYJqsaqoasVl_dh6eDJSrF-wzvAdE1iMh_T-XF6h0WJtavs50Pv2yX6HY69E9/lottery_Logo_Black+RGB-2.png"
