@@ -137,7 +137,6 @@ a:hover {
 
 .tickets .tickets-table {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
   justify-content: space-around;
@@ -150,7 +149,6 @@ a:hover {
 
 .tickets .tickets-table-div {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -160,7 +158,6 @@ a:hover {
 
 .tickets .tickets-table-column {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -180,7 +177,6 @@ a:hover {
 
 .tickets .lunch-wrapper {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -193,7 +189,6 @@ a:hover {
 
 .tickets .bar-menu {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -203,7 +198,6 @@ a:hover {
 
 .tickets .vegetarians .meaters {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -ms-flex-item-align: center;
   align-self: center;
@@ -216,7 +210,6 @@ a:hover {
 
 .tickets .veg-menu {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -276,7 +269,6 @@ img .thumb-image {
 
 .about-main .logo-image {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -ms-flex-item-align: center;
   align-self: center;
@@ -337,7 +329,6 @@ img .thumb-image {
 
   .tickets-table-div {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
