@@ -133,8 +133,12 @@ a:hover {
   height: 80vh;
 
   .ticket-title {
-    padding-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .ticket-box {
+    background-color: #3d3d3d;
   }
 
   .tickets-table {
@@ -146,16 +150,6 @@ a:hover {
     .tickets-table-div {
       display: flex;
       flex-direction: column;
-      border-image:
-        4 repeating-linear-gradient(-30deg,
-          red 0,
-          red 1em,
-          transparent 0,
-          transparent 2em,
-          #58a 0,
-          #58a 3em,
-          transparent 0,
-          transparent 4em);
     }
 
     .tickets-table-column {
@@ -166,6 +160,7 @@ a:hover {
     }
 
     .border-colored {
+      border: 10px;
       border-image:
         4 repeating-linear-gradient(-30deg,
           red 0,
@@ -190,7 +185,8 @@ a:hover {
     align-self: center;
     justify-content: space-around;
     margin-right: 40px;
-    margin-left: 40px padding-bottom: 40px;
+    margin-left: 40px;
+    padding-bottom: 40px;
   }
 }
 
@@ -280,7 +276,6 @@ a:hover {
     top: -405px;
     margin-bottom: -405px;
   }
-
 }
 
 @media screen and (min-width: 992px) {
