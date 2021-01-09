@@ -55,7 +55,7 @@ a:hover {
   margin-right: 20px;
 }
 
-.header .left-side > a {
+.header .left-side>a {
   color: white;
 }
 
@@ -99,14 +99,14 @@ a:hover {
   font-size: 12px;
 }
 
-.main .main-program .features > div {
+.main .main-program .features>div {
   background-color: rgba(65, 68, 75, 0.6);
   border: 2px solid #272a31 !important;
 }
 
-.main .main-program .features > div .far,
-.main .main-program .features > div .fas,
-.main .main-program .features > div .fab {
+.main .main-program .features>div .far,
+.main .main-program .features>div .fas,
+.main .main-program .features>div .fab {
   fill: white;
 }
 
@@ -114,7 +114,7 @@ a:hover {
   width: 120px;
   height: 120px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .main .guests .featured-speakers {
@@ -139,11 +139,11 @@ a:hover {
   display: -webkit-box;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-top: 100px;
 }
 
@@ -152,8 +152,8 @@ a:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .tickets .tickets-table-column {
@@ -161,38 +161,38 @@ a:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-bottom: 50px;
 }
 
 .tickets .border-colored {
   border: 10px;
   -o-border-image: 4 repeating-linear-gradient(-30deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em) !important;
-     border-image: 4 repeating-linear-gradient(-30deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em) !important;
+  border-image: 4 repeating-linear-gradient(-30deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em) !important;
 }
 
 .tickets .lunch-wrapper {
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .tickets .bar-menu {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: #d3d3d3;
 }
 
@@ -200,9 +200,9 @@ a:hover {
   display: -webkit-box;
   display: flex;
   -ms-flex-item-align: center;
-      align-self: center;
+  align-self: center;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   margin-right: 40px;
   margin-left: 40px;
   padding-bottom: 40px;
@@ -212,14 +212,14 @@ a:hover {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .tickets .slct-lunch {
   margin-top: 40px;
   margin-bottom: 40px;
-  border: 1 px #ec5242;
+  border: 1px #ec5242;
 }
 
 .footer * {
@@ -246,7 +246,7 @@ img .thumb-image {
   padding-bottom: 200px;
 }
 
-.about-main .box-summary > p {
+.about-main .box-summary>p {
   margin: 4px;
   padding-top: 80px;
   padding-bottom: 80px;
@@ -262,7 +262,7 @@ img .thumb-image {
   margin-top: 20px;
 }
 
-.about-main .short-caption > span {
+.about-main .short-caption>span {
   font-weight: bolder;
   font-size: 18px;
 }
@@ -271,14 +271,14 @@ img .thumb-image {
   display: -webkit-box;
   display: flex;
   -ms-flex-item-align: center;
-      align-self: center;
+  align-self: center;
 }
 
 .about-main .sao-paulo {
   height: 405px;
   width: 720px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .about-main .medellin {
@@ -314,25 +314,27 @@ img .thumb-image {
   .bg-lg-dark {
     background-color: black;
   }
+
   .width-50 {
     width: 50%;
   }
+
   .tickets-table {
     border: 10px solid;
     padding: 40px;
     margin-bottom: 70px;
     -o-border-image: 4 repeating-linear-gradient(-30deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em);
-       border-image: 4 repeating-linear-gradient(-30deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em);
+    border-image: 4 repeating-linear-gradient(-30deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em);
   }
+
   .tickets-table-div {
     display: -webkit-box;
-      display: flex;
+    display: flex;
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
-        -ms-flex-direction: row !important;
-            flex-direction: row !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
 }
-/*# sourceMappingURL=stylesheet.css.map */
