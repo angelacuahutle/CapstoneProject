@@ -55,7 +55,7 @@ a:hover {
   margin-right: 20px;
 }
 
-.header .left-side>a {
+.header .left-side > a {
   color: white;
 }
 
@@ -99,14 +99,14 @@ a:hover {
   font-size: 12px;
 }
 
-.main .main-program .features>div {
+.main .main-program .features > div {
   background-color: rgba(65, 68, 75, 0.6);
   border: 2px solid #272a31 !important;
 }
 
-.main .main-program .features>div .far,
-.main .main-program .features>div .fas,
-.main .main-program .features>div .fab {
+.main .main-program .features > div .far,
+.main .main-program .features > div .fas,
+.main .main-program .features > div .fab {
   fill: white;
 }
 
@@ -246,7 +246,7 @@ img .thumb-image {
   padding-bottom: 200px;
 }
 
-.about-main .box-summary>p {
+.about-main .box-summary > p {
   margin: 4px;
   padding-top: 80px;
   padding-bottom: 80px;
@@ -262,7 +262,7 @@ img .thumb-image {
   margin-top: 20px;
 }
 
-.about-main .short-caption>span {
+.about-main .short-caption > span {
   font-weight: bolder;
   font-size: 18px;
 }
@@ -338,5 +338,3 @@ img .thumb-image {
     justify-content: space-around;
   }
 }
-
-/*# sourceMappingURL=stylesheet.css.map */
