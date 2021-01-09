@@ -1,6 +1,6 @@
 $blue-gray: #272a31;
 $cocogoose: "Cocogoose",
-  sans-serif;
+sans-serif;
 $red: #ec5242;
 
 @font-face {
@@ -59,7 +59,7 @@ a:hover {
     margin-right: 20px;
   }
 
-  .left-side > a {
+  .left-side>a {
     color: white;
   }
 
@@ -104,7 +104,7 @@ a:hover {
       font-size: 12px;
     }
 
-    .features > div {
+    .features>div {
       background-color: rgba(65, 68, 75, 0.6);
       border: 2px solid #272a31 !important;
 
@@ -131,14 +131,16 @@ a:hover {
 
 .tickets {
   height: 80vh;
+  padding-top: 30px !important;
 
   .ticket-title {
     padding-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
   }
 
   .ticket-box {
-    background-color: #3d3d3d;
+    background-color: #d3d3d3;
+
   }
 
   .tickets-table {
@@ -146,40 +148,43 @@ a:hover {
     justify-content: space-around;
     flex-direction: column;
     margin-top: 100px;
+  }
 
-    .tickets-table-div {
-      display: flex;
-      flex-direction: column;
-    }
+  .tickets-table-div {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .tickets-table-column {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 50px;
-    }
+  .tickets-table-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
 
-    .border-colored {
-      border: 10px;
-      border-image:
-        4 repeating-linear-gradient(
-          -30deg,
-          red 0,
-          red 1em,
-          transparent 0,
-          transparent 2em,
-          #58a 0,
-          #58a 3em,
-          transparent 0,
-          transparent 4em
-        ) !important;
-    }
+  .border-colored {
+    border: 10px;
+    border-image:
+      4 repeating-linear-gradient(-30deg,
+        red 0,
+        red 1em,
+        transparent 0,
+        transparent 2em,
+        #58a 0,
+        #58a 3em,
+        transparent 0,
+        transparent 4em) !important;
   }
 
   .lunch-wrapper {
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+  .bar-menu {
+    display:flex;
+    justify-content: center;
+    background-color: #d3d3d3;
   }
 
   .vegetarians .meaters {
@@ -190,15 +195,20 @@ a:hover {
     margin-left: 40px;
     padding-bottom: 40px;
   }
+  .veg-menu {
+    display: flex;
+    justify-content: center;
+  }
+  .slct-lunch {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1 px $red;
+  }
 }
 
 .footer {
   * {
     overflow-y: hidden;
-
-    .thumb-image2 {
-      width: 20px;
-    }
   }
 
   .partners {
@@ -210,6 +220,13 @@ a:hover {
       color: white;
     }
   }
+
+  img .thumb-image {
+    left: 0;
+    width: 10px;
+    height: 20px;
+    position: relative;
+  }
 }
 
 .about-main {
@@ -218,7 +235,7 @@ a:hover {
     padding-bottom: 200px;
   }
 
-  .box-summary > p {
+  .box-summary>p {
     margin: 4px;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -234,7 +251,7 @@ a:hover {
     margin-top: 20px;
   }
 
-  .short-caption > span {
+  .short-caption>span {
     font-weight: bolder;
     font-size: 18px;
   }
@@ -294,8 +311,7 @@ a:hover {
     padding: 40px;
     margin-bottom: 70px;
     border-image:
-      4 repeating-linear-gradient(
-        -30deg,
+      4 repeating-linear-gradient(-30deg,
         red 0,
         red 1em,
         transparent 0,
@@ -303,8 +319,7 @@ a:hover {
         #58a 0,
         #58a 3em,
         transparent 0,
-        transparent 4em
-      );
+        transparent 4em);
   }
 
   .tickets-table-div {
