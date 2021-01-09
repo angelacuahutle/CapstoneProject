@@ -1,6 +1,6 @@
 $blue-gray: #272a31;
 $cocogoose: "Cocogoose",
-sans-serif;
+  sans-serif;
 $red: #ec5242;
 
 @font-face {
@@ -59,7 +59,7 @@ a:hover {
     margin-right: 20px;
   }
 
-  .left-side>a {
+  .left-side > a {
     color: white;
   }
 
@@ -104,7 +104,7 @@ a:hover {
       font-size: 12px;
     }
 
-    .features>div {
+    .features > div {
       background-color: rgba(65, 68, 75, 0.6);
       border: 2px solid #272a31 !important;
 
@@ -162,7 +162,8 @@ a:hover {
     .border-colored {
       border: 10px;
       border-image:
-        4 repeating-linear-gradient(-30deg,
+        4 repeating-linear-gradient(
+          -30deg,
           red 0,
           red 1em,
           transparent 0,
@@ -170,7 +171,8 @@ a:hover {
           #58a 0,
           #58a 3em,
           transparent 0,
-          transparent 4em) !important;
+          transparent 4em
+        ) !important;
     }
   }
 
@@ -216,7 +218,7 @@ a:hover {
     padding-bottom: 200px;
   }
 
-  .box-summary>p {
+  .box-summary > p {
     margin: 4px;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -232,7 +234,7 @@ a:hover {
     margin-top: 20px;
   }
 
-  .short-caption>span {
+  .short-caption > span {
     font-weight: bolder;
     font-size: 18px;
   }
@@ -292,7 +294,8 @@ a:hover {
     padding: 40px;
     margin-bottom: 70px;
     border-image:
-      4 repeating-linear-gradient(-30deg,
+      4 repeating-linear-gradient(
+        -30deg,
         red 0,
         red 1em,
         transparent 0,
@@ -300,7 +303,8 @@ a:hover {
         #58a 0,
         #58a 3em,
         transparent 0,
-        transparent 4em);
+        transparent 4em
+      );
   }
 
   .tickets-table-div {
