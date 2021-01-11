@@ -6,9 +6,9 @@ The main page and the tickets page are responsive on two breakpoints: under 768p
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-![screenshot](./assets/phone-capstone.png)
+![screenshot](./asssets/toma1.png)
 
-![screenshot](./assets/shoot-cap.png)
+![screenshot](./assets/toma2.png)
 
 It is a nicely done layout !
 
