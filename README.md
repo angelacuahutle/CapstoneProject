@@ -6,9 +6,12 @@ The main page and the tickets page are responsive on two breakpoints: under 768p
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-![screenshot](./asssets/toma1.png)
 
 ![screenshot](./assets/toma2.png)
+
+
+![screenshot](./assets/toma1.png)
+
 
 It is a nicely done layout !
 
@@ -24,7 +27,7 @@ It is a nicely done layout !
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/angelacuahutle/CapstoneProject/23d00020acad17803d146e94ac0f9a3b7aeb5492/index.html)
+[Live Demo Link](https://raw.githack.com/user/repo/branch/file)
 
 
 ## Getting Started
