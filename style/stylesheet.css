@@ -54,6 +54,11 @@ a:hover {
   color: black;
 }
 
+.header #nowrap {
+  -ms-flex-wrap: nowrap !important;
+      flex-wrap: nowrap !important;
+}
+
 .header .left-side {
   width: 20vw;
   margin-right: 20px;
@@ -61,10 +66,6 @@ a:hover {
 
 .header .left-side > a {
   color: white;
-}
-
-.header .navbar-bottom {
-  width: 50vw;
 }
 
 .main * {
@@ -140,8 +141,7 @@ a:hover {
 }
 
 .tickets {
-  height: 80vh;
-  padding-top: 30px !important;
+  padding-top: 20px !important;
 }
 
 .tickets .ticket-title {
@@ -356,7 +356,7 @@ a:hover {
         flex-basis: 0;
   }
   .tickets-table {
-    border: 10px solid;
+    border: 10px;
     padding: 40px;
     margin-bottom: 70px;
     -o-border-image: 4 repeating-linear-gradient(-30deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em);
@@ -372,6 +372,9 @@ a:hover {
             flex-direction: row !important;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+  .footer-lg-height {
+    height: 100px;
   }
 }
 /*# sourceMappingURL=stylesheet.css.map */

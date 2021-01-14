@@ -10,7 +10,6 @@ $red: #ec5242;
   font-style: normal;
 }
 
-
 body {
   font-family: 'Lato', sans-serif;
   overflow-x: hidden;
@@ -60,6 +59,10 @@ a:hover {
     color: black;
   }
 
+  #nowrap {
+      flex-wrap: nowrap !important;
+  }
+
   .left-side {
     width: 20vw;
     margin-right: 20px;
@@ -67,10 +70,6 @@ a:hover {
 
   .left-side>a {
     color: white;
-  }
-
-  .navbar-bottom {
-    width: 50vw;
   }
 }
 
@@ -146,8 +145,7 @@ a:hover {
 }
 
 .tickets {
-  height: 80vh;
-  padding-top: 30px !important;
+  padding-top: 20px !important;
 
   .ticket-title {
     padding-top: 50px;
@@ -334,9 +332,8 @@ a:hover {
     flex-basis: 0;
   }
 
-
   .tickets-table {
-    border: 10px solid;
+    border: 10px;
     padding: 40px;
     margin-bottom: 70px;
     border-image:
@@ -355,5 +352,8 @@ a:hover {
     display: flex;
     flex-direction: row !important;
     justify-content: space-around;
+  }
+  .footer-lg-height {
+    height: 100px;
   }
 }
