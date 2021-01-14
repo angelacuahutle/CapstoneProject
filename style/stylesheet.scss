@@ -1,6 +1,6 @@
 $blue-gray: #272a31;
 $cocogoose: "Cocogoose",
-sans-serif;
+  sans-serif;
 $red: #ec5242;
 
 @font-face {
@@ -37,7 +37,6 @@ a:hover {
 
 .mt-40px {
   margin-top: 40px;
-
 }
 
 .mt-100px {
@@ -60,7 +59,7 @@ a:hover {
   }
 
   #nowrap {
-      flex-wrap: nowrap !important;
+    flex-wrap: nowrap !important;
   }
 
   .left-side {
@@ -68,8 +67,36 @@ a:hover {
     margin-right: 20px;
   }
 
-  .left-side>a {
+  .left-side > a {
     color: white;
+  }
+}
+
+.footer {
+  * {
+    overflow-y: hidden;
+  }
+
+  .partners {
+    h2 {
+      border-bottom: 1px solid $red;
+      margin-bottom: 5px;
+      padding-bottom: 5px;
+    }
+  }
+
+  .fa-creative-commons {
+    color: white;
+  }
+
+  .thumb-image2 {
+    background-color: white;
+  }
+
+  img .thumb-image {
+    margin-right: -20px;
+    width: 30px;
+    height: 30px;
   }
 }
 
@@ -111,7 +138,7 @@ a:hover {
       font-size: 12px;
     }
 
-    .features>div {
+    .features > div {
       background-color: rgba(65, 68, 75, 0.6);
       border: 2px solid #272a31 !important;
 
@@ -122,11 +149,11 @@ a:hover {
       }
     }
 
-    .adjust-index-boxes>div {
+    .adjust-index-boxes > div {
       flex: 1;
     }
 
-    .index-boxes-columns>* {
+    .index-boxes-columns > * {
       flex: 1;
     }
   }
@@ -156,13 +183,6 @@ a:hover {
     background-color: white;
   }
 
-  .tickets-table {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    margin-top: 100px;
-  }
-
   .tickets-table-div {
     display: flex;
     flex-direction: column;
@@ -179,7 +199,8 @@ a:hover {
     border: 10px;
     margin: 30px;
     border-image:
-      5 repeating-linear-gradient(-40deg,
+      5 repeating-linear-gradient(
+        -40deg,
         red 0,
         red 1em,
         transparent 0,
@@ -187,7 +208,8 @@ a:hover {
         #58a 0,
         #58a 3em,
         transparent 0,
-        transparent 4em) !important;
+        transparent 4em
+      ) !important;
   }
 
   .lunch-wrapper {
@@ -222,41 +244,13 @@ a:hover {
   }
 }
 
-.footer {
-  * {
-    overflow-y: hidden;
-  }
-
-  .partners {
-    h2 {
-      border-bottom: 1px solid $red;
-      margin-bottom: 5px;
-      padding-bottom: 5px;
-    }
-  }
-
-  .fa-creative-commons {
-    color: white;
-  }
-
-  .thumb-image2 {
-    background-color: white;
-  }
-
-  img .thumb-image {
-    margin-right: -20px;
-    width: 30px;
-    height: 30px;
-  }
-}
-
 .about-main {
   .About {
     background-color: #d3d3d3;
     padding-bottom: 70px;
   }
 
-  .box-summary>p {
+  .box-summary > p {
     margin: 4px;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -272,7 +266,7 @@ a:hover {
     margin-top: 20px;
   }
 
-  .short-caption>span {
+  .short-caption > span {
     font-weight: bolder;
     font-size: 18px;
   }
@@ -327,7 +321,7 @@ a:hover {
     width: 50%;
   }
 
-  .index-boxes>div {
+  .index-boxes > div {
     flex-grow: 1;
     flex-basis: 0;
   }
@@ -337,7 +331,8 @@ a:hover {
     padding: 40px;
     margin-bottom: 70px;
     border-image:
-      4 repeating-linear-gradient(-30deg,
+      4 repeating-linear-gradient(
+        -30deg,
         red 0,
         red 1em,
         transparent 0,
@@ -345,7 +340,8 @@ a:hover {
         #58a 0,
         #58a 3em,
         transparent 0,
-        transparent 4em);
+        transparent 4em
+      );
   }
 
   .tickets-table-div {
@@ -353,6 +349,7 @@ a:hover {
     flex-direction: row !important;
     justify-content: space-around;
   }
+
   .footer-lg-height {
     height: 100px;
   }

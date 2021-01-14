@@ -56,7 +56,7 @@ a:hover {
 
 .header #nowrap {
   -ms-flex-wrap: nowrap !important;
-      flex-wrap: nowrap !important;
+  flex-wrap: nowrap !important;
 }
 
 .header .left-side {
@@ -66,6 +66,30 @@ a:hover {
 
 .header .left-side > a {
   color: white;
+}
+
+.footer * {
+  overflow-y: hidden;
+}
+
+.footer .partners h2 {
+  border-bottom: 1px solid #ec5242;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.footer .fa-creative-commons {
+  color: white;
+}
+
+.footer .thumb-image2 {
+  background-color: white;
+}
+
+.footer img .thumb-image {
+  margin-right: -20px;
+  width: 30px;
+  height: 30px;
 }
 
 .main * {
@@ -119,21 +143,21 @@ a:hover {
 
 .main .main-program .adjust-index-boxes > div {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .main .main-program .index-boxes-columns > * {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .main .guests img {
   width: 120px;
   height: 120px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .main .guests .featured-speakers {
@@ -153,40 +177,25 @@ a:hover {
   background-color: white;
 }
 
-.tickets .tickets-table {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-top: 100px;
-}
-
 .tickets .tickets-table-div {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .tickets .tickets-table-column {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-bottom: 50px;
 }
 
@@ -194,81 +203,53 @@ a:hover {
   border: 10px;
   margin: 30px;
   -o-border-image: 5 repeating-linear-gradient(-40deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em) !important;
-     border-image: 5 repeating-linear-gradient(-40deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em) !important;
+  border-image: 5 repeating-linear-gradient(-40deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em) !important;
 }
 
 .tickets .lunch-wrapper {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .tickets .bar-menu {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: #d3d3d3;
 }
 
 .tickets .vegetarians .meaters {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -ms-flex-item-align: center;
-      align-self: center;
+  align-self: center;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   margin-right: 30px;
   margin-left: 30px;
 }
 
 .tickets .veg-menu {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .tickets .slct-lunch {
   margin-top: 40px;
   margin-bottom: 40px;
   border: 1px #ec5242;
-}
-
-.footer * {
-  overflow-y: hidden;
-}
-
-.footer .partners h2 {
-  border-bottom: 1px solid #ec5242;
-  margin-bottom: 5px;
-  padding-bottom: 5px;
-}
-
-.footer .fa-creative-commons {
-  color: white;
-}
-
-.footer .thumb-image2 {
-  background-color: white;
-}
-
-.footer img .thumb-image {
-  margin-right: -20px;
-  width: 30px;
-  height: 30px;
 }
 
 .about-main .About {
@@ -299,17 +280,16 @@ a:hover {
 
 .about-main .logo-image {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -ms-flex-item-align: center;
-      align-self: center;
+  align-self: center;
 }
 
 .about-main .sao-paulo {
   height: 405px;
   width: 720px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .about-main .medellin {
@@ -345,36 +325,39 @@ a:hover {
   .bg-lg-dark {
     background-color: black;
   }
+
   .width-50 {
     width: 50%;
   }
+
   .index-boxes > div {
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     -ms-flex-preferred-size: 0;
-        flex-basis: 0;
+    flex-basis: 0;
   }
+
   .tickets-table {
     border: 10px;
     padding: 40px;
     margin-bottom: 70px;
     -o-border-image: 4 repeating-linear-gradient(-30deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em);
-       border-image: 4 repeating-linear-gradient(-30deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em);
+    border-image: 4 repeating-linear-gradient(-30deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em);
   }
+
   .tickets-table-div {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
-        -ms-flex-direction: row !important;
-            flex-direction: row !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
+
   .footer-lg-height {
     height: 100px;
   }
 }
-/*# sourceMappingURL=stylesheet.css.map */
