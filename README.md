@@ -30,7 +30,7 @@ It is a nicely done layout !
 
 ## Presentation Video
 
-[Video] (https://www.loom.com/share/0c21e272c6974bfd9f4375ab858a8455)
+[Video](https://www.loom.com/share/0c21e272c6974bfd9f4375ab858a8455)
 
 ## Getting Started
 
