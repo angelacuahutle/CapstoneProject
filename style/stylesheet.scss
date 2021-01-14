@@ -1,0 +1,356 @@
+$blue-gray: #272a31;
+$cocogoose: "Cocogoose",
+  sans-serif;
+$red: #ec5242;
+
+@font-face {
+  font-family: "Cocogoose";
+  src: url('Cocogoose.woff2') format('woff2'), url('Cocogoose.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+
+  * {
+    overflow-x: hidden;
+  }
+}
+
+a:hover {
+  color: $red !important;
+}
+
+.cocogoose {
+  font-family: $cocogoose;
+}
+
+.bg-blue-gray {
+  background-color: $blue-gray;
+}
+
+.text-orange {
+  color: $red;
+}
+
+.mt-40px {
+  margin-top: 40px;
+}
+
+.mt-100px {
+  margin-top: 100px;
+}
+
+.mb-100px {
+  margin-bottom: 100px;
+}
+
+#active {
+  color: $red !important;
+}
+
+.header {
+  z-index: 1000;
+
+  .hamburguer {
+    color: black;
+  }
+
+  #nowrap {
+    flex-wrap: nowrap !important;
+  }
+
+  .left-side {
+    width: 20vw;
+    margin-right: 20px;
+  }
+
+  .left-side > a {
+    color: white;
+  }
+}
+
+.footer {
+  * {
+    overflow-y: hidden;
+  }
+
+  .partners {
+    h2 {
+      border-bottom: 1px solid $red;
+      margin-bottom: 5px;
+      padding-bottom: 5px;
+    }
+  }
+
+  .fa-creative-commons {
+    color: white;
+  }
+
+  .thumb-image2 {
+    background-color: white;
+  }
+
+  img .thumb-image {
+    margin-right: -20px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.main {
+  * {
+    overflow-y: hidden;
+    overflow-wrap: break-word;
+  }
+
+  .mytitle {
+    font-size: calc(1.525rem + 3.3vw);
+    font-weight: 300;
+    color: $red;
+    padding-top: 300px;
+  }
+
+  .box-summary {
+    font-size: 18px;
+    width: 100%;
+    background-color: #f0efef;
+    border: 3px solid white;
+  }
+
+  .main-program {
+    margin-top: 50px;
+    padding-top: 100px;
+    color: white;
+
+    h3 {
+      font-size: 16px;
+    }
+
+    h2 {
+      font-weight: bolder;
+    }
+
+    .resize-row-text {
+      width: 50%;
+      font-size: 12px;
+    }
+
+    .features > div {
+      background-color: rgba(65, 68, 75, 0.6);
+      border: 2px solid #272a31 !important;
+
+      .far,
+      .fas,
+      .fab {
+        fill: white;
+      }
+    }
+
+    .adjust-index-boxes > div {
+      flex: 1;
+    }
+
+    .index-boxes-columns > * {
+      flex: 1;
+    }
+  }
+
+  .guests {
+    img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+    }
+
+    .featured-speakers {
+      border-bottom: 1px solid $red;
+    }
+  }
+}
+
+.tickets {
+  padding-top: 20px !important;
+
+  .ticket-title {
+    padding-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .ticket-box {
+    background-color: white;
+  }
+
+  .tickets-table-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tickets-table-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .tickets-table {
+    border: 10px;
+    margin: 30px;
+    border-image:
+      5 repeating-linear-gradient(
+        -40deg,
+        red 0,
+        red 1em,
+        transparent 0,
+        transparent 2em,
+        #58a 0,
+        #58a 3em,
+        transparent 0,
+        transparent 4em
+      ) !important;
+  }
+
+  .lunch-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .bar-menu {
+    display: flex;
+    justify-content: center;
+    background-color: #d3d3d3;
+  }
+
+  .vegetarians .meaters {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .veg-menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .slct-lunch {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px $red;
+  }
+}
+
+.about-main {
+  .About {
+    background-color: #d3d3d3;
+    padding-bottom: 70px;
+  }
+
+  .box-summary > p {
+    margin: 4px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+
+  .venue {
+    opacity: 0.5;
+  }
+
+  .short-caption {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .short-caption > span {
+    font-weight: bolder;
+    font-size: 18px;
+  }
+
+  .logo-image {
+    display: flex;
+    align-self: center;
+  }
+
+  .sao-paulo {
+    height: 405px;
+    width: 720px;
+    object-fit: cover;
+  }
+
+  .medellin {
+    width: 720px;
+    height: 405px;
+  }
+
+  .places-div {
+    position: relative;
+    top: 265px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white !important;
+    z-index: 15;
+
+    img {
+      opacity: 0.4;
+      z-index: -1;
+    }
+  }
+
+  .transparent-orange {
+    height: 405px;
+    width: 720px;
+    background-color: rgba(255, 69, 0, 0.5);
+    z-index: 0;
+    position: relative;
+    top: -405px;
+    margin-bottom: -405px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bg-lg-dark {
+    background-color: black;
+  }
+
+  .width-50 {
+    width: 50%;
+  }
+
+  .index-boxes > div {
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+
+  .tickets-table {
+    border: 10px;
+    padding: 40px;
+    margin-bottom: 70px;
+    border-image:
+      4 repeating-linear-gradient(
+        -30deg,
+        red 0,
+        red 1em,
+        transparent 0,
+        transparent 2em,
+        #58a 0,
+        #58a 3em,
+        transparent 0,
+        transparent 4em
+      );
+  }
+
+  .tickets-table-div {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around;
+  }
+
+  .footer-lg-height {
+    height: 100px;
+  }
+}

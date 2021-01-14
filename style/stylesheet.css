@@ -1,0 +1,363 @@
+@font-face {
+  font-family: "Cocogoose";
+  src: url("Cocogoose.woff2") format("woff2"), url("Cocogoose.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+}
+
+body * {
+  overflow-x: hidden;
+}
+
+a:hover {
+  color: #ec5242 !important;
+}
+
+.cocogoose {
+  font-family: "Cocogoose", sans-serif;
+}
+
+.bg-blue-gray {
+  background-color: #272a31;
+}
+
+.text-orange {
+  color: #ec5242;
+}
+
+.mt-40px {
+  margin-top: 40px;
+}
+
+.mt-100px {
+  margin-top: 100px;
+}
+
+.mb-100px {
+  margin-bottom: 100px;
+}
+
+#active {
+  color: #ec5242 !important;
+}
+
+.header {
+  z-index: 1000;
+}
+
+.header .hamburguer {
+  color: black;
+}
+
+.header #nowrap {
+  -ms-flex-wrap: nowrap !important;
+  flex-wrap: nowrap !important;
+}
+
+.header .left-side {
+  width: 20vw;
+  margin-right: 20px;
+}
+
+.header .left-side > a {
+  color: white;
+}
+
+.footer * {
+  overflow-y: hidden;
+}
+
+.footer .partners h2 {
+  border-bottom: 1px solid #ec5242;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.footer .fa-creative-commons {
+  color: white;
+}
+
+.footer .thumb-image2 {
+  background-color: white;
+}
+
+.footer img .thumb-image {
+  margin-right: -20px;
+  width: 30px;
+  height: 30px;
+}
+
+.main * {
+  overflow-y: hidden;
+  overflow-wrap: break-word;
+}
+
+.main .mytitle {
+  font-size: calc(1.525rem + 3.3vw);
+  font-weight: 300;
+  color: #ec5242;
+  padding-top: 300px;
+}
+
+.main .box-summary {
+  font-size: 18px;
+  width: 100%;
+  background-color: #f0efef;
+  border: 3px solid white;
+}
+
+.main .main-program {
+  margin-top: 50px;
+  padding-top: 100px;
+  color: white;
+}
+
+.main .main-program h3 {
+  font-size: 16px;
+}
+
+.main .main-program h2 {
+  font-weight: bolder;
+}
+
+.main .main-program .resize-row-text {
+  width: 50%;
+  font-size: 12px;
+}
+
+.main .main-program .features > div {
+  background-color: rgba(65, 68, 75, 0.6);
+  border: 2px solid #272a31 !important;
+}
+
+.main .main-program .features > div .far,
+.main .main-program .features > div .fas,
+.main .main-program .features > div .fab {
+  fill: white;
+}
+
+.main .main-program .adjust-index-boxes > div {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.main .main-program .index-boxes-columns > * {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.main .guests img {
+  width: 120px;
+  height: 120px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.main .guests .featured-speakers {
+  border-bottom: 1px solid #ec5242;
+}
+
+.tickets {
+  padding-top: 20px !important;
+}
+
+.tickets .ticket-title {
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+
+.tickets .ticket-box {
+  background-color: white;
+}
+
+.tickets .tickets-table-div {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.tickets .tickets-table-column {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.tickets .tickets-table {
+  border: 10px;
+  margin: 30px;
+  -o-border-image: 5 repeating-linear-gradient(-40deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em) !important;
+  border-image: 5 repeating-linear-gradient(-40deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em) !important;
+}
+
+.tickets .lunch-wrapper {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.tickets .bar-menu {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #d3d3d3;
+}
+
+.tickets .vegetarians .meaters {
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.tickets .veg-menu {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.tickets .slct-lunch {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 1px #ec5242;
+}
+
+.about-main .About {
+  background-color: #d3d3d3;
+  padding-bottom: 70px;
+}
+
+.about-main .box-summary > p {
+  margin: 4px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.about-main .venue {
+  opacity: 0.5;
+}
+
+.about-main .short-caption {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about-main .short-caption > span {
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.about-main .logo-image {
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.about-main .sao-paulo {
+  height: 405px;
+  width: 720px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.about-main .medellin {
+  width: 720px;
+  height: 405px;
+}
+
+.about-main .places-div {
+  position: relative;
+  top: 265px;
+  font-size: 40px;
+  font-weight: bolder;
+  color: white !important;
+  z-index: 15;
+}
+
+.about-main .places-div img {
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.about-main .transparent-orange {
+  height: 405px;
+  width: 720px;
+  background-color: rgba(255, 69, 0, 0.5);
+  z-index: 0;
+  position: relative;
+  top: -405px;
+  margin-bottom: -405px;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-lg-dark {
+    background-color: black;
+  }
+
+  .width-50 {
+    width: 50%;
+  }
+
+  .index-boxes > div {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+  }
+
+  .tickets-table {
+    border: 10px;
+    padding: 40px;
+    margin-bottom: 70px;
+    -o-border-image: 4 repeating-linear-gradient(-30deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em);
+    border-image: 4 repeating-linear-gradient(-30deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em);
+  }
+
+  .tickets-table-div {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+
+  .footer-lg-height {
+    height: 100px;
+  }
+}
