@@ -7,11 +7,10 @@ The main page and the tickets page are responsive on two breakpoints: under 768p
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 
-![screenshot](./assets/toma2.png)
+![screenshot](./assets/sample1.png)
 
 
-![screenshot](./assets/toma1.png)
-
+![screenshot](./assets/sample2.png)
 
 It is a nicely done layout !
 
@@ -27,8 +26,11 @@ It is a nicely done layout !
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/user/repo/branch/file)
+[Live Demo Link](https://raw.githack.com/angelacuahutle/CapstoneProject/features/index.html)
 
+## Presentation Video
+
+[Video] (https://www.loom.com/share/0c21e272c6974bfd9f4375ab858a8455)
 
 ## Getting Started
 
@@ -47,6 +49,8 @@ Live Server plugin for Visual Studio Code
 Everything should be running by now!
 
 ## Atribution 
+
+The Creative Commons license of the design requires to give appropriate credit to the author. 
 
 This design is an idea originally by Cindy Shin on Behance
 
